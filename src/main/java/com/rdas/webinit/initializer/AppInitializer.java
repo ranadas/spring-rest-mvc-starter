@@ -131,6 +131,7 @@ public class AppInitializer extends WebMvcConfigurerAdapter implements WebApplic
     /**
      * The trick to get rid of applicationContext.xml files is achieved by using AnnotationConfigWebApplicationContext
      * instead of XmlWebApplicationContext.
+     * Registering the first config class :AppConfig.class
      */
     private AnnotationConfigWebApplicationContext getApplicationContext() {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
