@@ -1,5 +1,5 @@
 Started maven project for spring 4. 
-No Auth.  No Soring boot. No Web xml, or any spring configuration xml.
+No Auth.  No Spring boot. No Web xml, or any spring configuration xml.
 
 Main entery point configuration is com.rdas.webinit.initializer.
 
